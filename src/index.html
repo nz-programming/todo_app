@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <title>TypeScript Todo App</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+        }
+        h1{
+            margin-bottom: 0.5rem;
+        }
+        #task-list{
+            list-style: none;
+            padding-left: 0;
+        }
+        li{
+            margin: 0.3rem 0;
+        }
+        .completed{
+            text-decoration: line-through;
+            color: gray;
+            text-decoration-thickness: 2px;
+        }
+        button{
+            margin-left: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Todoアプリ</h1>
+    <div>
+        <input type="text" id="task-input" placeholder="やること入力..." />
+        <button id="add-task-button">追加</button>
+    </div>
+    <ul id="task-list"></ul>
+    <script type="module" src="../dist/main.js"></script>
+</body>
+</html>
