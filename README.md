@@ -10,4 +10,4 @@ todo app for practice
 
 - restrict_direct_push_to_main_branch
   - mainへの直接push禁止
-  - test
+  - test2
