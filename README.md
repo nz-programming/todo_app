@@ -9,3 +9,4 @@ todo app for practice
 ## Github repository rule
 
 - restrict_direct_push_to_main_branch
+  - mainへの直接push禁止
