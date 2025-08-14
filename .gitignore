@@ -55,3 +55,6 @@ coverage/
 # Temporary folders
 tmp/
 temp/
+
+# DB
+dev.db
