@@ -1,0 +1,30 @@
+{
+    "name": "todo-app-backend",
+    "version": "1.0.0",
+    "main": "dist/server.js",
+    "scripts": {
+        "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+        "type": "tsc --noEmit",
+        "build": "tsc",
+        "start": "node dist/server.js",
+        "prisma:generate": "prisma generate",
+        "prisma:migrate": "prisma migrate dev",
+        "prisma:studio": "prisma studio"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "Todo App Backend Api Server",
+    "dependencies": {
+        "@prisma/client": "^6.14.0",
+        "cors": "^2.8.5",
+        "express": "^5.1.0"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.19",
+        "@types/express": "^5.0.3",
+        "@types/node": "^24.2.1",
+        "prisma": "^6.14.0",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^5.9.2"
+    }
+}
