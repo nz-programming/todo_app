@@ -58,3 +58,9 @@ temp/
 
 # DB
 dev.db
+*.sqlite
+*.sqlite3
+
+# Prisma
+**/generated/
+prisma/generated/
